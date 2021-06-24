@@ -4,6 +4,7 @@ body{
 	font-family: 'Merriweather', serif;
 
 }
+
 h1{
 	margin: 0 auto;
 	font-family: 'Sacramento', cursive;
@@ -15,20 +16,21 @@ h1{
 h2{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2.5rem;
-	color: #66BFBF;
+	color: #34656D;
 	font-weight: bolder;
+	font: left;
+
+
 	
 }
 h3{
 	font-family: 'Montserrat', sans-serif;
-	color: #11999e;
+	color: #34656D;
 }
 a{
-	color: #11999E;
+	color: #214151;
 }
-img{
-	padding-top: 50px;
-}
+
 hr{
 	border-style: dashed;
 	border-color: #DDDDDD;
@@ -36,8 +38,12 @@ hr{
 	border-width: 5%;
 	
 }
+
 div{
 	margin-bottom: 40px;
+}
+table{
+	margin-bottom: 0;
 }
 
 .top-container{
@@ -47,22 +53,24 @@ div{
 
 }
 .middle-container{
-	width: 50%;
+	width: 65%;
 	margin: auto;
 	line-height: 30px;
+	background-color: #DEEDF0;
 
 	
 }
 .bottom-container{
 	line-height: 30px;
+	background-color: #B2B8A3;
 }
 .skill-row{
-	width: 50%;
-	margin: auto;
+	width: 65%;
+	margin: 50px auto 100px auto;
+	text-align: left;
+	line-height: 2;
 }
-.btn{
-	background-color: #9EDE73;
-}
+
 #cloud1{
 	top: 30px;
 	margin-left: 25%;
@@ -73,4 +81,16 @@ div{
 	position: absolute;
 	
 
+}
+#skillimage{
+	width: 25%;
+	float: left;
+	margin-right: 50px;
+}
+#marketingskill{
+	width: 35%;
+	float: right;
+	margin-left: 50px;
+	margin-top: 35px;
+	margin-bottom: 20px;
 }
