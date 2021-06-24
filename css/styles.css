@@ -6,7 +6,6 @@ body{
 }
 
 h1{
-	margin: 0 auto;
 	font-family: 'Sacramento', cursive;
 	font-size: 5.625rem;
 	margin-top: 50px auto 0 auto;
@@ -32,10 +31,10 @@ a{
 }
 
 hr{
-	border-style: dashed;
-	border-color: #DDDDDD;
-	width: 5%;
-	border-width: 5%;
+	border: dotted #EAf6f6;
+	border-bottom: none;
+	width: 4%;
+	margin: 50px auto;
 	
 }
 
@@ -45,7 +44,14 @@ div{
 table{
 	margin-bottom: 0;
 }
-
+.description{
+	width: 50%;
+	margin: 40px auto 40px auto;
+}
+.info{
+	width: 40%;
+	margin: 40px auto 60px;
+}
 .top-container{
 	background-color: #e4f9f5;
 	padding-top: 100px;
@@ -66,19 +72,32 @@ table{
 }
 .skill-row{
 	width: 65%;
-	margin: 50px auto 100px auto;
+	margin: 50px auto 50px auto;
 	text-align: left;
 	line-height: 2;
 }
-
+.styledbtn{
+	border-radius: 12px;
+	margin-bottom: 30px;
+	font-size: 12px;
+	background-color:  ;
+}
+.styledbtn:hover{
+	background-color: #34656D;
+	transition-duration: 0.4s;
+}
+.profileimg{
+	margin-top: 30px;
+}
 #cloud1{
-	top: 30px;
-	margin-left: 25%;
+	top: 40px;
+	right: 25%;
 	position: absolute;
 }
 #cloud2{
 	left: 20%;
 	position: absolute;
+	bottom: 250px;
 	
 
 }
@@ -86,6 +105,7 @@ table{
 	width: 25%;
 	float: left;
 	margin-right: 50px;
+	margin-left: 30px;
 }
 #marketingskill{
 	width: 35%;
